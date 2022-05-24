@@ -1,7 +1,6 @@
 kind: role
 metadata:
   description: Access cluster resources
-  id: 1653219786420646900
   name: access
 spec:
   allow:
