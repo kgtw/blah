@@ -38,4 +38,4 @@ spec:
     forward_agent: true
     max_session_ttl: 30h0m0s
     port_forwarding: true
-version: v3
+version: v4
