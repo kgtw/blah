@@ -1,0 +1,32 @@
+---
+kind: role
+version: v4
+metadata:
+  description: ""
+  name: "example"
+  namespace: "default"
+spec:
+  options:
+    max_session_ttl: 8h
+  logins: [ "root" ]
+  max_session_ttl: 90h0m0s
+  namespaces: ["*"]
+  node_labels:
+    "*": "*"
+  resources:
+    "*": ["read", "write"]
+  rules:
+  - resources: [role]
+    verbs: [list, create, read, update, delete]
+  - resources: [auth_connector]
+    verbs: [list, create, read, update, delete]
+  - resources: [session]
+    verbs: [list, read]
+  - resources: [trusted_cluster]
+    verbs: [list, create, read, update, delete]
+  - resources: [event]
+    verbs: [list, read]
+  - resources: [user]
+    verbs: [list,create,read,update,delete]
+  - resources: [token]
+    verbs: [list,create,read,update,delete]
