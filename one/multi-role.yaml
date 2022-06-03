@@ -4,7 +4,7 @@ kind: role
 version: v4
 metadata:
   description: ""
-  name: "hmm"
+  name: "role2"
   namespace: "default"
 spec:
   logins: [ "root" ]
@@ -20,7 +20,7 @@ kind: role
 version: v4
 metadata:
   description: ""
-  name: "haa"
+  name: "role3"
   namespace: "default"
 spec:
   logins: [ "root" ]

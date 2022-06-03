@@ -1,7 +1,7 @@
 kind: role
 metadata:
-  description: Access cluster resources
-  name: access
+  description: devops role
+  name: devops
 spec:
   allow:
     app_labels:

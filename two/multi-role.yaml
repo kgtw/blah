@@ -1,0 +1,32 @@
+
+---
+kind: role
+version: v4
+metadata:
+  description: ""
+  name: "role2"
+  namespace: "default"
+spec:
+  logins: [ "root" ]
+  max_session_ttl: 90h0m0s
+  namespaces: ["*"]
+  node_labels:
+    "*": "*"
+  resources:
+    "*": ["read", "write"]
+
+---
+kind: role
+version: v4
+metadata:
+  description: ""
+  name: "role3"
+  namespace: "default"
+spec:
+  logins: [ "root" ]
+  max_session_ttl: 90h0m0s
+  namespaces: ["*"]
+  node_labels:
+    "*": "*"
+  resources:
+    "*": ["read", "write"]

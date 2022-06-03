@@ -1,6 +1,7 @@
+---
 kind: user
 metadata:
-  name: toto
+  name: test-user1
 spec:
   roles:
   - admin

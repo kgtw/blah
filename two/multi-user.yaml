@@ -1,0 +1,31 @@
+---
+kind: user
+metadata:
+  name: test-user2
+spec:
+  roles:
+  - admin
+  - editor
+  traits:
+    kubernetes_groups:
+    - ""
+    kubernetes_users:
+    - ""
+    logins: null
+version: v2
+
+---
+kind: user
+metadata:
+  name: test-user3
+spec:
+  roles:
+  - admin
+  - editor
+  traits:
+    kubernetes_groups:
+    - ""
+    kubernetes_users:
+    - ""
+    logins: null
+version: v2

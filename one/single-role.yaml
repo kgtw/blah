@@ -3,7 +3,7 @@ kind: role
 version: v4
 metadata:
   description: ""
-  name: "toto"
+  name: "role1"
   namespace: "default"
 spec:
   logins: [ "root" ]
